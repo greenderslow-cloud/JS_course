@@ -1,3 +1,3 @@
-function sum(m, n) {
-  // ваш код...
+function sum(a, b) {
+  return a + b;
 }
