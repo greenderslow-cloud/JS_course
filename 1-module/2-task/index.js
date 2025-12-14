@@ -11,17 +11,16 @@ function print(text) {
  */
 function isValid(name) {
   if (name === null) {
-    return false
+    return false;
   } else if (name.includes(' ')) {
-    return false
+    return false;
   } else if (name.length < 4) {
-    return false
+    return false;
   } else {
-    return true
+    return true;
   }
 }
 
-// console.log(isValid("ale asd"))
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
